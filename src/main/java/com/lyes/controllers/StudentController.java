@@ -33,5 +33,4 @@ public class StudentController {
 	public @ResponseBody Iterable<Student> getAllStudents() {
 		return sr.findAll();
 	}
-
 }
